@@ -1,0 +1,23 @@
+:root {
+    --mainEng-font: "Monsterrat";
+    --mainKor-font: "nanumSquarNeo";
+    --mainNum-font: "gmarket";
+
+
+    /* 기본 폰트 설정 */
+    font-family: var(--mainEug-font), var(--mainKor-font);
+    font-size: 16px;
+
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+body {
+    color: var(--black);
+    background-color: var(--mainBg-color);
+}
