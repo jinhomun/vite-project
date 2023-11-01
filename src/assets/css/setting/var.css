@@ -3,11 +3,12 @@
     --mainKor-font: "nanumSquareNeo";
     --mainNum-font: "gmarket";
 
-    --mainBg-color: #ffffff;
+    --mainFont-color : #c2f3e3;
+    --mainBg-color : #1b1b1e;
     --subBg100: #e9e8e8;
     --subBg200: #c8c3c3;
     --subBg300: #bdbcbc;
-    --subBg400: #6b6868;
+    --subBg400: #4f4f4f;
     --subBg500: #000000;
 
     --white: #ffffff;
@@ -34,7 +35,7 @@
     -webkit-text-size-adjust: 100%;
 }
 
-@media (max-width: 800pc) {
+@media (max-width: 800px) {
     :root {
         font-size: 14px;
         line-height: 1.4;
