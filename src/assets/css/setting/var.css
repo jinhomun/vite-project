@@ -8,16 +8,19 @@
     --subBg100: #e9e8e8;
     --subBg200: #c8c3c3;
     --subBg300: #bdbcbc;
-    --subBg400: #4f4f4f;
-    --subBg500: #000000;
+    --subBg400: #9a9999;
+    --subBg500: #6d6d6d;
+
+    --mint:#9bf0d4;
+    --mint100:#8ffdd8;
 
     --white: #ffffff;
     --black: #000000;
-    --black100: #000000;
-    --black200: #000000;
-    --black300: #000000;
-    --black400: #000000;
-    --black500: #000000;
+    --black100: #2d2d2d;
+    --black200: #3a3a3a;
+    --black300: #4e4e4e;
+    --black400: #5b5b5b;
+    --black500: #6d6d6d;
 
     /* 기본 폰트 설정 */
     font-family: var(--mainEng-font), var(--mainKor-font);
