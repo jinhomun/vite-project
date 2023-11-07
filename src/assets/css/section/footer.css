@@ -3,14 +3,15 @@
 }
 .footer__inner {
     padding: 16px;
-
+}
 .footer__text {
     font-size: 12px;
     text-transform: uppercase;
-    border-top: 1px solid var(--black);
-    border-bottom: 1px solid var(--black);
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
     display: flex;
     justify-content: space-between;
+    color: var(--white);
 }
 .footer__info {
     display: flex;
@@ -23,23 +24,26 @@
 }
 
 .title {
-    border-top: 2px solid var(--black);
-    border-bottom: 1px solid var(--black);
+    border-top: 2px solid var(--white);
+    border-bottom: 1px solid var(--white);
     padding: 20px 0;
     text-transform: uppercase;
     font-weight: 700;
     background: url(../../img/arrow.svg) no-repeat right 20px;
     transition: all 0.3s;
+    color: var(--white);
 }
 .title:hover {
-    background-color: var(--black400);
+    background-color: var(--white);
+    color: var(--black);
     padding-left: 10px;
     border-color: transparent;  
 }
             
 .desc {
     font-size: 12px;
-    padding-top: 20px;   
+    padding-top: 20px;  
+    color: var(--white); 
 }
         
 
@@ -47,35 +51,36 @@
     width: 50%;
 }    
 
-h3 {
-    border-top: 2px solid var(--black);
+.right h3 {
+    border-top: 2px solid var(--white);
     font-size: 10px;
     margin-bottom: 40px;
     padding-top: 10px;
+    color: var(--white);
 }
-ul {
-    border-top: 1px solid var(--black);
+.right ul {
+    border-top: 1px solid var(--white);
 }
-li {
-    border-bottom: 1px solid var(--black);
+.right li {
+    border-bottom: 1px solid var(--white);
 }    
-a {
+.right a {
     padding: 14px 0;
     font-size: 14px;
     display: inline-block;
     text-transform: uppercase;
+    color: var(--white);
 }
-em {
+.right em {
     font-size: 12px;
     padding-left: 10px;
     opacity: 0;
     transition: all 0.3s;
+    color: var(--white);
 }
 
-&:hover {
-    em {
+.right em:hover {
         opacity: 1;
-    }
 }
 
 
@@ -84,5 +89,5 @@ em {
     text-transform: uppercase;
     font-size: 12px;
     margin-bottom: 20px;
-}
+    color: var(--white);
 }
